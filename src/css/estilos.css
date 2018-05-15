@@ -1,0 +1,844 @@
+/*
+Creado por XDMedia
+*/
+@import url('https://fonts.googleapis.com/css?family=Sarala:400,500,600,700');
+body {
+	background-color: #fff;
+	color: #828281;
+	/*background: url(../images/bg1_1.jpg) no-repeat;*/
+	margin: 0;
+}
+.contenedor {
+	max-width: 1480px;
+	padding: 0 8px;
+}
+.contenedor-menu {
+	overflow: visible !important;
+}
+.logo images {
+	max-width: 208px;
+}
+html {
+    /*
+	overflow-y: scroll !important;
+    */
+}
+header {
+    padding-top: 30px;
+    min-height: 132px;
+    overflow: visible !important;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+footer {
+	margin: 0 0 40px 0;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.footer-home {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+footer ul li a {
+	font-size: 16px !important;
+}
+.cursor {
+    cursor: pointer;
+}
+.ancho {
+    width: 100%;
+}
+#cargar-imagess {
+    max-width: 100%;
+    object-fit: cover;
+    display: inline-block;
+    height: 481px;
+    width: 100%;
+}
+.margen-arriba-30 {
+	margin-top: 30px;
+}
+.gestion {
+	overflow: hidden;
+    background: #333;
+    padding: 4px;
+}
+.margin-top-0 {
+    margin-top: 0 !important;
+}
+.tour-virtual {
+    color: #ec1c25;
+    text-transform: uppercase;
+}
+.boton-bajar {
+    display: none;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    margin-left: -45px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+
+}
+.boton-bajar h5 {
+    margin: 5px 0;
+}
+.textos-home-h1 {
+    max-width: 700px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.textos-home-h2 {
+    max-width: 750px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.centrar-enca {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.centrar-fila {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+.subir {
+	top: 90%;
+	right: 30px;
+}
+.mapa-opciones {
+    margin: 0 0 11px 0;
+    float: left;
+}
+.maso {
+    float: left;
+    margin: 0 11px 0 0;
+}
+.mapa-textos > div {
+    min-height: 270px;
+}
+.superpuesto {
+    margin-top: -100px;
+}
+.lista-contacto {
+	margin: 0;
+    margin-top: 158px;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.lista-contacto li {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 4px 0;
+}
+.margen-arriba-3 {
+	margin-top: 3px;
+}
+.lista-contacto li a {
+	color: #828281;
+}
+.margen-arriba-45 {
+    margin-top: 11px;
+}
+.texto-pro {
+    margin-bottom: 60px;
+    line-height: 22px;
+}
+.texto-pro h1 {
+    font-weight: normal;
+}
+.texto-pro h2 {
+    font-weight: normal;
+    padding: 0;
+}
+.texto-pro p {
+    padding: 8px 0;
+    line-height: 22px;
+}
+.tipopagina ul li a {
+    color: #525051 !important;
+}
+.margen-mintop {
+    margin-top: -3px;
+}
+
+.tipopaginabtn {
+    background: url(../images/menu-old.svg) no-repeat center;
+    background-size: 44px 34px;
+}
+.servicios-margen {
+	margin-top: 181px;
+}
+.servicios-margen2 {
+	margin-top: 300px;
+}
+.servicios-margen3 {
+	margin-top: 121px;
+}
+.margen-boton-iz {
+	margin-left: -8px;
+}
+.padding-home {
+	padding-top: 150px;
+}
+.padding-arriba2 {
+	padding-top: 200px;
+}
+.contenedor-proyectos {
+	max-width: 1148px;
+    margin-top: 132px;
+}
+#logo-footer {
+    width: 168px !important;
+}
+.contenedor-noticias {
+	max-width: 710px;
+        margin-top: 132px;
+}
+.cuerpo {
+	min-height: 878px;
+}
+.padding-paginas {
+	padding: 150px 0;
+}
+.mas-servicios {
+	font-weight: normal;
+    margin: 40px 0;
+}
+.wrapper {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+.menu-activo {
+	background: none;
+    /*
+	border-bottom: 2px solid #dcdcdc;
+    */
+}
+.menu-activo a {
+    /*
+	color: #fff !important;
+    */
+}
+.bloques-servicios {
+	padding-top: 410px;
+}
+.bloques-servicios images {
+	padding: 10px; 
+}
+.bloques-servicios h3 {
+	padding: 0 10px;
+	text-align: left;
+	font-weight: normal;
+}
+.texto-pro2 {
+    margin-bottom: 80px;
+}
+.texto-pro2 images {
+    padding: 16px 0;
+    width: 100%;
+}
+.logo {
+	position: relative;
+	z-index: 999;
+}
+.bloque-texto {
+	max-width:500px;
+}
+.menu-boton {
+	position: relative;
+	z-index: 999;
+    background-size: 44px 34px !important;
+}
+.menu-boton-negro-close {
+    background: url(../images/cerrar.svg) no-repeat center;
+    background-size: 44px 34px;
+}
+.menu-househerber {
+    background-color: transparent;
+    border-bottom: 0;
+}
+.menu-househerber ul {
+	margin: 0;
+	padding: 0;
+    margin-top: 17px;
+}
+.menu-househerber ul li {
+    list-style: none;
+    float: left;
+    position: relative;
+    margin: 0 2px;
+}
+.menu-househerber ul li:hover > ul {
+	
+    display: block;
+    
+}
+.menu-househerber ul li a {
+    letter-spacing: -1px;
+    padding: 2px 0;
+    margin: 2px 8px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+        -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.menu-househerber ul li ul {
+    display: none;
+	position: absolute;
+    top: 35px;
+    left: -90px;
+    z-index: 999;
+    width: 262px;
+    padding-top: 10px;
+    margin: 0 !important;
+}
+.menu-househerber ul li ul li {
+    border: none;
+    text-align: left;
+    background: #5f5f5f;
+    margin: 0;
+}
+.menu-househerber ul li ul li:hover {
+	border-bottom: none !important;
+	background: #5f5f5f;
+}
+.menu-househerber ul li ul li a {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    display: block;
+    padding: 3px 0;
+    color: #fff !important;
+    text-align: center;
+    line-height: 21px;
+}
+	
+.menu-househerber ul li:hover {
+    /*
+    border-bottom: 2px solid #dcdcdc;
+    */
+}
+.menu-househerber ul li a:hover {
+	color: #e4e4e4;
+	text-decoration: none;
+}
+.sin-transicion {
+    -webkit-transition: all .0s ease !important;
+    transition: all .0s ease !important;
+}
+.menu-boton {
+	border: none !important;
+	margin: 30px 0 0 0;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.menu-boton images {
+	width: 50px;
+}
+.iconos-home images:hover {
+    -webkit-box-shadow: inset 0 0 0 3px #dfdfdf;
+    -moz-box-shadow: inset 0 0 0 3px #dfdfdf;
+    box-shadow: inset 0 0 0 3px #dfdfdf;
+}
+.direccion-activa {
+background: #f9f9f9;
+    border: 2px solid #ddd;
+    border-left: none;
+    border-right: none;
+}
+.textos-home-h1 h1 {
+    color: transparent;
+    line-height: 38px;
+    margin: 0;
+    font-size: 37px;
+    letter-spacing: -0.50px;
+}
+.bold-home {
+    font-size: 65px; 
+    line-height: 51px;
+}
+.bold-home-mini {
+    font-size: 22px; 
+    font-weight: normal;
+    display: block;
+}
+.bolds {
+    font-size: 22px; 
+    font-weight: normal;
+    display: block;
+    line-height: 25px;
+    margin-top: 7px;
+}
+.ancho-maximo-c p {
+    max-width: 366px;
+    float: right;
+}
+.boton-househerber {
+    background: transparent !important;
+    border-radius: 0px;
+    padding: 14px 40px;
+    font-size: 17px;
+    margin: 7px 0 0 0;
+    color: #fff;
+    font-weight: normal;
+}
+.boton-househerber:hover {
+    color: #000 !important;
+    background:#fff !important;
+}
+.logo, .logo images {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.menu-boton-mini {
+    margin: 17px 0 0 0 !important;
+}
+.relleno-18 {
+    padding: 18px;
+}
+.textos-home-h2 h2,
+.textos-home-h2 h3 {
+    color: #ffffff;
+    /*
+    max-width: 526px;
+    */
+    line-height: 38px;
+    margin: 0;
+    font-size: 37px;
+}
+.header-mini {
+    padding: 12px 0;
+    min-height: 81px;
+}
+.header-mini > .contenedor > .logo images {
+    max-width: 168px !important;
+}
+.menu-househerber-mini ul {
+    margin: 17px 0 0 0 !important;
+}
+.fondo-blanco-m2 {
+    background: #fff;
+    background-color: rgba(255,255,255,0);
+}
+.fondo-blanco-m {
+    background: #fff;
+    background-color: rgba(255,255,255,1);
+}
+
+.color-blanco h1 {
+    color: #fff !important;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+}
+.textos-home-h3 h3 {
+	color: #656060;
+    max-width: 418px;
+    line-height: 38px;
+    margin: 300px 0 0 40px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.texto-derecha {
+	text-align: right;
+}
+.contenedor-p {
+    max-width: 930px;
+}
+.contenedor-c {
+    max-width: 960px;
+}
+.texto-abajo {
+	margin: 40px 0 0 0;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.color-claro {
+	color: #f3f3f3;
+}
+.color-oscuro {
+	color: #5a5a5a;
+}
+.h1-claro {
+	color: #e6e6e6 !important;
+}
+.fila-noticias {
+	margin-bottom: 90px;
+}
+.fila-formulario {
+    margin-top: 90px;
+}
+.fila-formulario2 {
+    margin-top: 40px;
+}
+.fila-noticias h3 {
+	padding: 0;
+    margin-top: -8px;
+}
+.fila-noticias h3 a {
+	color: #828281;
+}
+
+.fila-noticias span {
+    height: 339px;
+    width: 339px;
+    box-sizing: border-box;
+}
+.fila-noticias images {
+    max-width: 100%;
+    object-fit: cover; /* cover o none */
+    display: inline-block;
+    height: 339px;
+    width: 339px;
+    border: 1px solid #ddd;
+ 
+}
+.zoomimages {
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.zoomimages:hover {
+	opacity: 0.7;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.cuerpo-noticia {
+	position: relative;
+	height: 347px;
+}
+.texto-noticia {
+	position: absolute;
+	bottom: 0;
+}
+.flecha-bajar {
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    margin-bottom: -20px;
+}
+footer .contenedor .menu-househerber ul li a {
+	font-size: 14px !important;
+}
+.formulario-househerber {
+	border: 1px solid #ddd;
+    padding: 8px;
+}
+.formulario-househerber h2 {
+    padding: 0;
+    font-weight: normal;
+}
+.formulario-househerber input[type="text"],
+.formulario-househerber input[type="email"],
+.formulario-househerber textarea {
+    width: 100%;
+    border: 0;
+    font-size: 16px;
+    padding: 4px 0;
+    resize: none;
+}
+.formulario-househerber input[type="text"]:focus,
+.formulario-househerber input[type="email"]:focus,
+.formulario-househerber textarea:focus {
+  outline: none;
+}
+.formulario-househerber input[type="submit"]{
+    background-color: #eaeaea;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #a5a4a4;
+    text-align: left;
+    padding: 0 47px 0 11px;
+    margin: 26px 0 0 0px;
+    cursor: pointer;
+    outline: none;
+}
+.formulario-househerber input[type="submit"]:hover{
+    background-color: #e6e3e3;
+}
+.alerta-contacto {
+	margin: 4px 0 0 8px;
+    padding: 2px 8px;
+    border-radius: 0;
+}
+.texto-info {
+	padding-top: 30px !important;
+    color: #b7b5b5;
+}
+.cuerpo h2, .cuerpo h3 {
+	font-weight: normal;
+}
+.social {
+	overflow: hidden;
+    margin-bottom: -12px;
+}
+.social ul {
+	overflow: hidden;
+}
+.social ul li {
+	float: right;
+	padding: 0 10px;
+	height: 30px;
+}
+.social ul li:hover {
+	border-bottom: none !important;
+}
+.social ul li a{
+	margin: 0;
+	padding: 0;	
+}
+.social ul li a images{
+	width: 50px;
+	width: 30px;
+}
+.padding-paginas2 {
+    padding: 105px 0 0 0;
+}
+.padding-paginas2 h3 {
+	font-weight: normal;
+
+}
+.slider-imagenes {
+    overflow: hidden;
+    position: relative;
+}
+.slider-imagenes images {
+    max-height: 392px;
+}
+.slider-imagenes .prev {
+    left: 0;
+    background: url(../images/slider-flecha-iz.png) no-repeat center;
+    background-color: #222;
+    font-size: 0;
+}
+.slider-imagenes .next, .slider-imagenes .prev {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    margin-top: -25px;
+    opacity: 0.7;
+    padding: 25px 15px;
+}
+.slider-imagenes .next {
+    right: 0;
+    background: url(../images/slider-flecha-de.png) no-repeat center;
+    background-color: #222;
+    font-size: 0;
+}
+.miniaturas-casa images {
+    width: 169px;
+    height: 112px;
+    object-fit: cover;
+    margin: 2px 2px 0px 0;
+}
+.pie-fotos {
+    padding: 0;
+    margin-top: -4px;
+    color: #222;
+    font-size: 13px;
+}
+.bloque-lista-botones {
+    padding: 8px 0;
+    margin: 12px 0 0 0;
+    overflow: hidden;
+    text-align: center;
+}
+.bloque-lista-botones a {
+    border: 1px solid #828281;
+    color: #828281;
+    height: 39px;
+    line-height: 38px;
+    width: 39px;
+    border-radius: 50%;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    display: inline-block;
+    margin-bottom: 4px;
+    text-decoration: none !important;
+}
+.bloque-lista-botones a:hover {
+    background: #828281 !important;
+    border: 1px solid #828281 !important;
+    color: #fff !important;
+}
+.b-l-b-activo {
+    background: #828281 !important;
+    border: 1px solid #828281 !important;
+    color: #fff !important;
+}
+
+.transicion {
+            -webkit-transition: 0.6s !important;
+        -o-transition: 0.6s !important;
+        transition: 0.6s !important;  
+}
+.puntos-abajo {
+    background: #333 !important;
+     -webkit-transition: 0.7s !important;
+    -o-transition: 0.7s !important;
+     transition: 0.7s !important; 
+}
+.ico-home images {
+    padding: 12px; 
+        -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+.ico-home images:hover {
+    -webkit-box-shadow: inset 0 0 0 3px #dfdfdf;
+    -moz-box-shadow: inset 0 0 0 3px #dfdfdf;
+    box-shadow: inset 0 0 0 3px #dfdfdf;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+
+.instalaciones1 {
+    background-image: url(../images/instalaciones/instalaciones1-househerber.jpg) !important;
+        -webkit-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;   
+}
+.instalaciones2 {
+    background-image: url(../images/instalaciones/instalaciones2-househerber.jpg) !important;
+        -webkit-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;   
+}
+.instalaciones3 {
+    background-image: url(../images/instalaciones/instalaciones3-househerber.jpg) !important;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+}
+.instalaciones4 {
+    background-image: url(../images/instalaciones/instalaciones4-househerber.jpg) !important;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+}
+.instalaciones5 {
+    background-image: url(../images/instalaciones/instalaciones5-househerber.jpg) !important;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+}
+
+.padding-top150 {
+    padding-top: 150px;
+}
+.padding-d-nosotros {
+    padding-right: 29px;
+}
+.menos-margen {
+       margin-top: 20px;
+}
+.margen-abajo-0 {
+    margin-bottom: 0px;
+}
+
+
+@media all and (max-width: 750px) {
+
+
+
+
+
+header {
+    padding-top: 16px !important;
+}
+
+.ico-home images {
+    padding: 6px; 
+}
+
+.tipopagina ul li a {
+    color: #fff !important;
+}
+
+
+
+
+.menu-footer {
+    float: left !important;
+    line-height: 21px;
+}
+.menu-footer ul li {
+    float: unset !important;
+}
+.menu-footer ul li a {
+    color: #525051 !important;
+}
+footer .contenedor .menu-househerber ul li a {
+    font-size: 12px !important;
+}
+#logo-footer {
+    margin-top: 30px;
+    max-width: 161px !important;
+}
+
+
+
+.menu-househerber ul li:hover > ul {
+    
+    display: none ;
+    
+}
+.padding-top150 {
+    padding-top: 50px !important;
+}
+
+.padding-d-nosotros {
+    padding-right: 0 !important;
+}
+
+.menos-margen {
+        margin-top: 0 !important;
+}
+.ico-home images {
+    max-width: 62px !important;
+}
+
+
+}
+
+
+.section{
+	background-size: cover;
+}
+#section0{
+	background-image: url(../images/bg1.jpg);
+}
+#section1{
+	background-image: url(../images/bg2.jpg);
+}
+#section2{
+	background-image: url(../images/bg3.jpg);
+}
