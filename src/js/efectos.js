@@ -90,7 +90,7 @@ function menufondos(tipo) {
 var estadohome = $(window).height();
 
 
-var vertotalpagina= (estadohome*3)-90;
+var vertotalpagina= (estadohome*4)-90;
 
 
 
